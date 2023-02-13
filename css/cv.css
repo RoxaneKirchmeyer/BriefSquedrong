@@ -1,8 +1,40 @@
 :root {
-    --RoseH1 : #D05270;
+    --RoseH1H4 : #D05270;
     --BleuH2H3 : #5A47AB;
     --GrisFonceParagraphe : #424242; 
     --GrisClair : #ececec;
     --BleuTwitter : #47acdf;
     --BleuLinkedin : #1275b1;
+}
+
+main {
+    display: flex;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    margin: 120px;
+}
+
+aside {
+    background-color: var(--GrisClair);
+    max-width: 350;
+    max-height: 1077;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,p,li {
+    padding: 10px;
+}
+
+.photoprofil {
+    text-align: center;
+}
+
+i {
+    color: var(--RoseH1H4);
+    padding: 5px;
 }
