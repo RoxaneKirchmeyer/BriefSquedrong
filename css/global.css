@@ -1,0 +1,46 @@
+:root {
+    --RoseH1 : #D05270;
+    --BleuH2H3 : #5A47AB;
+    --GrisFonceParagraphe : #424242; 
+    --GrisClair : #ececec;
+    --BleuTwitter : #47acdf;
+    --BleuLinkedin : #1275b1;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--Roseh1);
+    font-size: 40px;
+}
+
+h2 {
+    color: var(--BleuH2H3);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--BleuH2H3);
+    font-size: 24px;
+    font-weight: 600;
+}
+p {
+    color: var(--GrisFonceParagraphe);
+    font-size: 14px;
+    font-weight: 500;
+}
+
