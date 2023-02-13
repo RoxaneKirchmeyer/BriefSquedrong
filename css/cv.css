@@ -6,20 +6,18 @@ body {
 main {
     width:80%;
     display: flex;
-    order: 1;
-    margin-left : 0rem;
+    order: 1
 }
 
 aside {
     background-color: var(--GrisClair);
     width:20%;
     padding: 20px;
-    margin-left : 0rem;
 }
 
 .photoprofil {
     text-align: center;
-    padding: 5px;
+    margin-bottom: 20px;
 }
 
 i {

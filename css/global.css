@@ -48,14 +48,15 @@ h4 {
     font-weight: 500;
     margin: 1.3rem 0;
 }
-p, input, textarea {
+
+p, input, textarea, a, li  {
     color: var(--GrisFonceParagraphe);
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 500;
-    margin: 0.9rem 0;
+    margin: 1rem 0;
 }
 
-a {
-    color: var(--GrisFonceParagraphe);
-}
+img {
+    line-height: 0;
+    }
 
