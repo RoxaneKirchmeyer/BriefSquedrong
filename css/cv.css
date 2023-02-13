@@ -1,37 +1,25 @@
-:root {
-    --RoseH1H4 : #D05270;
-    --BleuH2H3 : #5A47AB;
-    --GrisFonceParagraphe : #424242; 
-    --GrisClair : #ececec;
-    --BleuTwitter : #47acdf;
-    --BleuLinkedin : #1275b1;
-}
-
-main {
-    display: flex;
-}
-
 body {
     display: flex;
+    gap: 50px;
 }
 
 main {
-    margin: 120px;
+    width:80%;
+    display: flex;
+    order: 1;
+    margin-left : 0rem;
 }
 
 aside {
     background-color: var(--GrisClair);
-    max-width: 350;
-    max-height: 1077;
+    width:20%;
     padding: 20px;
-}
-
-h1,h2,h3,h4,p,li {
-    padding: 10px;
+    margin-left : 0rem;
 }
 
 .photoprofil {
     text-align: center;
+    padding: 5px;
 }
 
 i {
