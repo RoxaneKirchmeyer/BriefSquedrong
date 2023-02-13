@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+
+
+
+}
+
+img {
+    max-width: auto;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.twitter {
+    background-color: #47acdf;
+    padding: 8px 25px;
+}
+
+
+.linkedin {
+
+    background-color: #1275b1;
+    padding: 8px 25px
+}
+
+.medium {
+
+    background-color: black;
+    padding: 8px 25px;
+
+}
+
+a {
+    color: white;
+
+}

@@ -1,8 +1,136 @@
-body {
-    display: grid;  
-    grid-template-columns: 1fr 1fr;
-   
-    
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+
+
+
+}
+
+img {
+    max-width: auto;
+    height: 300px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.twitter {
+    background-color: #47acdf;
+    padding: 8px 25px;
+}
+
+
+.linkedin {
+
+    background-color: #1275b1;
+    padding: 8px 25px
+}
+
+.medium {
+
+    background-color: black;
+    padding: 8px 25px;
+
+}
+
+li a {
+    color: white;
+
+}
+
+nav img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+nav a {
+
+    color: black;
+}
+
+nav ul {
+
+    margin-top: 15px;
+
+
+}
+
+
+/* header{
+    height: 60px ;
+    width: 100%;
+
+}
+
+header a{
+      color: grey ;
+      text-decoration: none;
+
+}
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+
+
+}
+
+.logo {
+    border: 1px solid ;
+    height: 100%;
+    display: flex;
+    align-items:center ;
+    padding-left: 10px;
     
 
 }
+
+.nav-ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100px;
+}
+
+.nav-ul a{
+    transition: color 0.5s;
+
+}
+
+.nav-ul a:hover{  
+    color: blue;
+
+}
+*/
