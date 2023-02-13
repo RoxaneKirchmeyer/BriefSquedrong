@@ -1,0 +1,26 @@
+Body {
+    margin: 40px;
+}
+
+    Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }   
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            color: blueviolet;
+            margin-top: 100px;
+        }
+
+        h2, h3 {
+            color: blue;
+        }
+
+
