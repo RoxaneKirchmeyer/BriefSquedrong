@@ -4,14 +4,14 @@ body {
 }
 
 main {
-    width:80%;
+    width:75%;
     display: flex;
     order: 1
 }
 
 aside {
     background-color: var(--GrisClair);
-    width:20%;
+    width:25%;
     padding: 20px;
 }
 
