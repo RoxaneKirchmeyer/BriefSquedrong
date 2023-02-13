@@ -56,7 +56,10 @@ p, input, textarea, a, li  {
     margin: 1rem 0;
 }
 
-img {
+figure {
     line-height: 0;
     }
 
+a:hover {
+    color: var(--RoseH1H4);
+}

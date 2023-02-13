@@ -5,7 +5,6 @@ body {
 
 main {
     width:75%;
-    display: flex;
     order: 1
 }
 
@@ -13,6 +12,7 @@ aside {
     background-color: var(--GrisClair);
     width:25%;
     padding: 20px;
+    text-align: center;
 }
 
 .photoprofil {
@@ -22,5 +22,8 @@ aside {
 
 i {
     color: var(--RoseH1H4);
-    padding: 5px;
+}
+
+aside a{
+    text-decoration: underline;
 }
