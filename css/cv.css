@@ -38,10 +38,6 @@ i :hover {
 
 /* Photo de profil */
 .profil {
-    background-position: 50% 50%;
-    background-size: contain;
-    width: 18rem;
-    height: 18rem;
-    border-radius: 100%;
+    clip-path:ellipse(35% 50%);
 }
 
