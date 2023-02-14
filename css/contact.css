@@ -1,0 +1,15 @@
+.texte {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;   
+}
+
+h1 {
+    color: pink;
+}
+
+p {
+    text-align: start;
+}
