@@ -5,6 +5,7 @@
     --BleuH2H3 : #5A47AB;
     --GrisFonceParagraphe : #424242; 
     --GrisClair : #ececec;
+    --GrisMoyenNav : #7e7e7e;
     --BleuTwitter : #47acdf;
     --BleuLinkedin : #1275b1;
 }
@@ -28,7 +29,10 @@ figure {
 body {
     width: 80%;
     margin: auto;
-    margin-bottom: 80px;
+}
+
+main{
+    margin-top: 50px;
 }
 
 /* Styles des titres principaux */
@@ -73,43 +77,62 @@ p, label, input, textarea, a, li  {
 }
 
 /* Effet au survol des liens */
-a:hover {
+
+nav a:hover, aside a:hover {
     color: var(--RoseH1H4);
 }
 
 /* CSS du Header et Footer */
-
 header, footer {
-    display: grid;
-    grid-template-columns: 1fr 5% 1fr ;
-    justify-items: end;
-    max-height: 500px;
+    display: flex;
+    gap: 20px;
 }
+
+footer img {
+    max-width: 100%;
+}
+
+footer h2 {
+    color: var(--RoseH1H4);
+}
+
 header ul, footer ul {
     display: flex;
     justify-content: flex-start;
     gap: 30px;
 }
 
-header p, footer p {
-    min-width: 100%;
+header li, footer li {
+    display: flex;
 }
 
 header li a, footer li a {
     color: white;
 }
 
-/* Boutons réseaux */
+header p, footer p {
+    min-width: 100%;
+}
+
+header figure img {
+    width: 400px;
+}
+
+/* Boutons réseaux sociaux*/
+
 .twitter {
     background-color: var(--BleuTwitter);
-    padding: 8px 25px;
     min-width: 165px;
     min-height: 15px;
+    padding: 8px 25px;
     text-align: center;
 }
 
-.linkedin {
+.twitter:hover {
+    background-color: var(--BleuLinkedin);
+}
 
+.linkedin {
     background-color: var(--BleuLinkedin);
     padding: 8px 25px;
     min-width: 165px;
@@ -117,8 +140,11 @@ header li a, footer li a {
     text-align: center;
 }
 
-.medium {
+.linkedin:hover{
+    background-color: var(--BleuTwitter);
+}
 
+.medium {
     background-color: black;
     padding: 8px 25px;
     min-width: 165px;
@@ -126,24 +152,20 @@ header li a, footer li a {
     text-align: center;
 }
 
-.imageheader {
-    max-width: 50%;
-    grid-column: 3;
+.medium:hover{
+    background-color: var(--GrisFonceParagraphe);
 }
-
 
 i {
     color: white;
 }
 
-i:hover {
-    color: var(--RoseH1H4);
-}
-
 /* CSS de la nav */
+
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -152,16 +174,26 @@ nav ul {
     gap: 30px;
 }
 nav a {
-
-    color: black;
+    margin-top:0 ;
+    margin-bottom:0 ;
+    color: var(--GrisMoyenNav);
 }
 
-nav ul {
-    margin-top: 15px;
-}
-
-nav img {
+nav figure img {
     max-width: 70%;
+    max-height: 100px;
+    position: absolute;
 }
 
+nav figure {
+    min-height: 100px;
+    opacity: 1;
+}
 
+nav .logohover {
+    transition: opacity .5s;
+    opacity: 0;
+}
+nav .logohover:hover {
+    opacity: 1;
+}

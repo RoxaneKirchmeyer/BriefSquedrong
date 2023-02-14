@@ -8,6 +8,8 @@ div {
 main {
     width:75%;
     order: 1;
+    margin-bottom: 50px;
+    
 }
 
 aside {
@@ -15,6 +17,8 @@ aside {
     background-color: var(--GrisClair);
     width:25%;
     padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 /* Ajout ligne pour lien hypertexte */
@@ -22,17 +26,12 @@ aside a{
     text-decoration: underline;
 }
 
-/* Centrage de l'image de profil */
-/* figure {
-    text-align: center;
-} */
-
 /* Couleurs des icones de contact */
 i {
     color: var(--RoseH1H4);
 }
 
-i :hover {
+i:hover {
     color: var(--RoseH1H4);
 }
 
@@ -41,3 +40,7 @@ i :hover {
     clip-path:ellipse(35% 50%);
 }
 
+/* Couleur pour préciser quelle page est en cours dans la navigation */
+a[href="../pages/cv.html"] {
+    color: var(--BleuH2H3);
+}

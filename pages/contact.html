@@ -1,17 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/global.css">
-        <link rel="stylesheet" href="/css/contact.css">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <title>Contact</title>
-    </head>
-    <body>
-        
-        <footer>
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -28,7 +16,10 @@
 
 <body>
     <nav>
-        <a href="../index.html"><img src="/img/squedrong.png" alt="image du logo de Squedrong" title="image du logo de Squedrong"></a>
+        <figure>
+            <a href="../index.html"><img src="/img/squedrong.png" alt="image du logo de Squedrong" title="image du logo de Squedrong"></a>
+            <a href="../index.html"><img src="/img/squedronghover.png" alt="image du logo de Squedrong" title="image du logo de Squedrong" class="logohover"></a>
+        </figure>
         <ul>
             <li><a href="../pages/blog.html">BLOG</a></li>
             <li><a href="../pages/cv.html">CV</a></li>
@@ -46,41 +37,39 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum?</p>
-            <p>Lorem ipsum dolor sit amet  Placeat, rerum?</p>
+            <p>Lorem ipsum dolor sit amet Placeat, rerum?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum?</p>
-            <p>Lorem ipsum dolor sit amet consectetur  Placeat, rerum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur Placeat, rerum?</p>
         </section>
 
-        <section class="formulaire">
-            <form>
-                <p>
-                    <label for="nom">Nom :</label><br>
-                    <input type="text" name="nom" id="nom" placeholder="Ecrivez votre nom">
-                </p>
-                <p>
-                    <label for="prenom">Prénom :</label><br>
-                    <input type="text" name="prenom" id="prenom" placeholder="Ecrivez votre prénom">
-                </p>
-                <P>
-                    <label for="email">E-mail :</label><br>
-                    <input type="email" name="email" id="email" placeholder="Ecrivez votre adresse e-mail">
-                </P>
-                <p>
-                    <label for="telephone">Téléphone :</label><br>
-                    <input type="tel" name="telephone" id="telephone" placeholder="Ecrivez votre numéro de téléphone">
-                </p>
-                <p>
-                    <label for="ecoute">Je vous écoute :</label><br>
-                    <textarea name="ecoute" id="ecoute" placeholder="Ecrivez votre message ici"></textarea>
-                </p>
-                <P>
-                    <input class="button" type="submit" value="ENVOYER">
-                </P>
-            </form>
-        </section>
+        <form>
+            <p>
+                <label for="nom">Nom :</label><br>
+                <input type="text" name="nom" id="nom" placeholder="Ecrivez votre nom">
+            </p>
+            <p>
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" name="prenom" id="prenom" placeholder="Ecrivez votre prénom">
+            </p>
+            <P>
+                <label for="email">E-mail :</label><br>
+                <input type="email" name="email" id="email" placeholder="Ecrivez votre adresse e-mail">
+            </P>
+            <p>
+                <label for="telephone">Téléphone :</label><br>
+                <input type="tel" name="telephone" id="telephone" placeholder="Ecrivez votre numéro de téléphone">
+            </p>
+            <p>
+                <label for="ecoute">Je vous écoute :</label><br>
+                <textarea name="ecoute" id="ecoute" placeholder="Ecrivez votre message ici"></textarea>
+            </p>
+            <p>
+                <button type="submit">ENVOYER</button>
+            </p>
+        </form>
     </main>
     <footer>
-        <div>
+        <section>
             <h2>A propos de l'auteur :</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, corporis eaque alias natus commodi
                 eum
@@ -89,14 +78,27 @@
                 facere, optio doloremque, officia quaerat deserunt mollitia earum velit ullam nihil dignissimos nemo
                 qui, consequatur quae. Distinctio iusto laborum ea.</p>
             <ul>
-                <li class="twitter"><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/" target="_blank"> TWITTER</a></li>
-                <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://fr.linkedin.com/" target="_blank"> LINKEDIN</a></li>
-                <li class="medium"><i class="fa-brands fa-medium"></i><a href="https://medium.com/" target="_blank"> MEDIUM</a></li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank" class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                        TWITTER
+                    </a>
+                </li>
+                <li>
+                    <a href="https://fr.linkedin.com/" target="_blank" class="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        LINKEDIN</a>
+                </li>
+                <li>
+                    <a href="https://medium.com/" target="_blank" class="medium">
+                        <i class="fa-brands fa-medium"></i> MEDIUM
+                    </a>
+                </li>
             </ul>
-        </div>
-
-        <img class="imageheader" src="../img/illustration.png" alt="illustration de Squedrong" title="illustration de Squedrong">
-
+        </section>
+        <figure>
+            <img src="../img/illustration.png" alt="illustration de Squedrong" title="illustration de Squedrong">
+        </figure>
     </footer>
 </body>
 
