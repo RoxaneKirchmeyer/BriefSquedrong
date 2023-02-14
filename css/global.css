@@ -1,3 +1,5 @@
+/* Bibliothèque de couleurs */
+
 :root {
     --RoseH1H4 : #D05270;
     --BleuH2H3 : #5A47AB;
@@ -7,6 +9,8 @@
     --BleuLinkedin : #1275b1;
 }
 
+/* Ecrasement du CSS par défault */
+
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -15,11 +19,18 @@
     list-style-type: none;
 }
 
+figure {
+    line-height: 0;
+}
+
+/* Marges globales du site */
+
 body {
     width: 80%;
     margin: auto;
 }
 
+/* Styles des titres principaux */
 
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -27,6 +38,8 @@ h1 {
     font-size: 3rem;
     margin:3rem 0;
 }
+
+/* Styles des sous-titres */
 
 h2 {
     color: var(--BleuH2H3);
@@ -44,19 +57,31 @@ h3 {
 
 h4 {
     color: var(--RoseH1H4);
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: 500;
-    margin: 1.3rem 0;
+    margin: 1.25rem 0;
 }
 
-p, input, textarea, a, li  {
+/* Styles des textes */
+
+p, label, input, textarea, a, li  {
     color: var(--GrisFonceParagraphe);
     font-size: 1rem;
     font-weight: 500;
     margin: 1rem 0;
 }
 
-img {
-    line-height: 0;
-    }
+/* Effet au survol des liens */
+a:hover {
+    color: var(--RoseH1H4);
+}
+
+/* CSS du Header */
+/* INSERER ICI */
+
+/* CSS du Footer */
+/* INSERER ICI */
+
+
+
 
