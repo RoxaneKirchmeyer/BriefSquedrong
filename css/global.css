@@ -76,11 +76,78 @@ a:hover {
     color: var(--RoseH1H4);
 }
 
-/* CSS du Header */
-/* INSERER ICI */
+/* CSS du Header et Footer */
 
-/* CSS du Footer */
-/* INSERER ICI */
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+}
+header ul, footer ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+header p, footer p {
+    max-width: 494px;
+}
+
+header li a, footer li a {
+    color: white;
+}
+
+.twitter {
+    background-color: var(--BleuTwitter);
+    padding: 8px 25px;
+}
+
+
+.linkedin {
+
+    background-color: var(--BleuLinkedin);
+    padding: 8px 25px
+}
+
+.medium {
+
+    background-color: black;
+    padding: 8px 25px;
+}
+
+.imageheader {
+    max-height: 50%;
+    grid-column: 3;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 10% 1fr ;
+    gap: 50px;
+}
+
+i {
+    color: white;
+}
+/* CSS de la nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+nav a {
+
+    color: black;
+}
+
+nav ul {
+    margin-top: 15px;
+}
 
 
 

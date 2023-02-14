@@ -1,7 +1,7 @@
 /* Mise en page global de la page */
-body {
+div {
     display: flex;
-    gap: 3rem;
+    gap: 7rem;
 }
 
 /* Changement d'ordre d'affichage entre <main> et <aside> */
@@ -23,12 +23,25 @@ aside a{
 }
 
 /* Centrage de l'image de profil */
-figure {
+/* figure {
     text-align: center;
-}
+} */
 
 /* Couleurs des icones de contact */
 i {
     color: var(--RoseH1H4);
+}
+
+i :hover {
+    color: var(--RoseH1H4);
+}
+
+/* Photo de profil */
+.profil {
+    background-position: 50% 50%;
+    background-size: contain;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
 }
 
