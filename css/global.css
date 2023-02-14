@@ -28,6 +28,7 @@ figure {
 body {
     width: 80%;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 /* Styles des titres principaux */
@@ -79,9 +80,10 @@ a:hover {
 /* CSS du Header et Footer */
 
 header, footer {
-    display: flex;
-    justify-content: space-between;
-    gap: 350px;
+    display: grid;
+    grid-template-columns: 1fr 5% 1fr ;
+    justify-items: end;
+    max-height: 500px;
 }
 header ul, footer ul {
     display: flex;
@@ -90,45 +92,54 @@ header ul, footer ul {
 }
 
 header p, footer p {
-    max-width: 494px;
+    min-width: 100%;
 }
 
 header li a, footer li a {
     color: white;
 }
 
+/* Boutons réseaux */
 .twitter {
     background-color: var(--BleuTwitter);
     padding: 8px 25px;
+    min-width: 165px;
+    min-height: 15px;
+    text-align: center;
 }
-
 
 .linkedin {
 
     background-color: var(--BleuLinkedin);
-    padding: 8px 25px
+    padding: 8px 25px;
+    min-width: 165px;
+    min-height: 15px;
+    text-align: center;
 }
 
 .medium {
 
     background-color: black;
     padding: 8px 25px;
+    min-width: 165px;
+    min-height: 15px;
+    text-align: center;
 }
 
 .imageheader {
-    max-height: 50%;
+    max-width: 50%;
     grid-column: 3;
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 10% 1fr ;
-    gap: 50px;
-}
 
 i {
     color: white;
 }
+
+i:hover {
+    color: var(--RoseH1H4);
+}
+
 /* CSS de la nav */
 nav {
     display: flex;
@@ -149,6 +160,8 @@ nav ul {
     margin-top: 15px;
 }
 
-
+nav img {
+    max-width: 70%;
+}
 
 
