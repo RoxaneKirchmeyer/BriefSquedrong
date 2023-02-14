@@ -1,0 +1,34 @@
+/* Mise en page global de la page */
+body {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Changement d'ordre d'affichage entre <main> et <aside> */
+main {
+    width:75%;
+    order: 1;
+}
+
+aside {
+    text-align: center;
+    background-color: var(--GrisClair);
+    width:25%;
+    padding: 20px;
+}
+
+/* Ajout ligne pour lien hypertexte */
+aside a{
+    text-decoration: underline;
+}
+
+/* Centrage de l'image de profil */
+figure {
+    text-align: center;
+}
+
+/* Couleurs des icones de contact */
+i {
+    color: var(--RoseH1H4);
+}
+
