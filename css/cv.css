@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    gap: 50px;
+}
+
+main {
+    width:75%;
+    display: flex;
+    order: 1
+}
+
+aside {
+    background-color: var(--GrisClair);
+    width:25%;
+    padding: 20px;
+}
+
+.photoprofil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+i {
+    color: var(--RoseH1H4);
+    padding: 5px;
+}
