@@ -1,7 +1,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 65%;
-    gap: 30px;
+    gap: 100px;
     margin-bottom: 100px;
 }
 
