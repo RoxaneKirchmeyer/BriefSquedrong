@@ -10,7 +10,7 @@ main section {
 
 main img {
     padding-top: 60px;
-}
+    }
 
 /* Couleur pour préciser quelle page est en cours dans la navigation */
 a[href="../pages/about.html"] {
