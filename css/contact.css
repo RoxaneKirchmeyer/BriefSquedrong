@@ -1,34 +1,59 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 60%;
+    grid-template-columns: 1fr 65%;
     gap: 30px;
     margin-bottom: 100px;
 }
+
+form{
+    margin-top: 50px;
+}
+
 input {
-    color: black;
-    background-color: rgb(236, 234, 234);
-    min-width: 100%;
+    color: #000000;
+    background-color: #eceaea;
+    min-width: 90%;
     min-height: 30px;
     margin-top: 10px;
+    border: none;
+    padding: 10px;
+}
+
+input:focus ,textarea:focus{
+    outline: none;
+    background-color: var(--RoseH1H4);
+    color: #ffffff;
+}
+
+input:focus::placeholder, textarea:focus::placeholder{
+    color: #ffffff;
 }
 
 textarea {
-    color: black;
-    background-color: rgb(236, 234, 234);
-    min-width: 100%;
+    color: #000000;
+    background-color: #eceaea;
+    min-width: 90%;
     min-height: 300px;
     margin-top: 10px;
-}
-
-.button {
-    margin-top: 30px;
-    color: white;
     padding: 10px;
-    background-color: var(--BleuH2H3);
-    min-width: 100%;
+    border: none;
 }
 
-footer h2 {
-    color: var(--RoseH1H4);
+button {
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    min-width: 93%;
+    background-color: var(--BleuH2H3);
+    cursor: pointer;
+}
 
+button:hover{
+    background-color: var(--RoseH1H4);
+}
+
+/* Couleur pour préciser quelle page est en cours dans la navigation */
+a[href="../pages/contact.html"] {
+    color: var(--BleuH2H3);
 }

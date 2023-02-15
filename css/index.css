@@ -3,35 +3,48 @@ main {
     grid-template-columns: 1fr 1fr;
     align-content: space-between;
     gap: 30px;
-    margin-top: 60px;
-
-}
-
-.article {
-    width: 100%;
-    height: auto;
-}
-
-.titreP {
-    color: var(--RoseH1H4); 
-}
-
-a {
-    color: var(--RoseH1H4);
-}
-
-.pLorem {
-    font-size: 3rem;
     margin-bottom: 50px;
-    color: black;
+}
 
+header{
+    margin-top: 90px;
 }
 
 .h1Accueil {
     margin: 0;
 }
 
+.h2Index {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: var(--GrisFonceParagraphe);
+}
+
+article img {
+    width: 100%;
+}
+
+.titreIndexArticle {
+    color: var(--RoseH1H4);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+/* Style En SAVOIR PLUS */
+a {
+    color: var(--RoseH1H4);
+}
+
 span {
     text-decoration: underline;
     color: var(--RoseH1H4);
 }
+
+span:hover{
+ color: var(--BleuH2H3);   
+}
+
+
+

@@ -1,19 +1,18 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 5% 1fr ;
+    grid-template-columns: 1fr 1fr ;
     margin-bottom: 100px;
 }
 
-section {
-    grid-column: 3/4;
+main section {
+    grid-column: 2/4;
 }
 
-img {
-    max-width: 100%;
+main img {
+    padding-top: 60px;
 }
 
-footer h2 {
-    color: var(--RoseH1H4);
-
+/* Couleur pour préciser quelle page est en cours dans la navigation */
+a[href="../pages/about.html"] {
+    color: var(--BleuH2H3);
 }
-
