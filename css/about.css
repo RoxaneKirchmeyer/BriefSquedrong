@@ -1,7 +1,8 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 20% 1fr ;
     margin-bottom: 100px;
+    gap: 100px;
 }
 
 main section {
@@ -9,7 +10,7 @@ main section {
 }
 
 main img {
-    padding-top: 60px;
+    padding-top: 125px;
 }
 
 /* Couleur pour préciser quelle page est en cours dans la navigation */
